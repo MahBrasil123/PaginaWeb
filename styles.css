@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #D1F4FF;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo img {
+    width: 100px; 
+    height: auto;
+    font-weight: bold; 
+    margin-left: 10px; 
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 10px; 
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;  
+    margin-right: 100px; 
+}
+
+nav ul li:last-child {
+    margin-right: 0; 
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: #007099; 
+    font-size: 24px; 
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #a9cad4;
+    font-size: 24px;
+}
+
+.btn-inscreva {
+    display: flex;
+    background-color: #007099;
+    color: #D1F4FF;
+    border: 2px solid rgb(0, 0, 0);  
+    padding: 5px 20px;  
+    font-size: 20px;
+    border-radius: 20px; 
+    margin-right: 50px;
+    margin-bottom: 5px;
+    cursor: pointer; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.btn-inscreva:hover {
+    background-color: #D1F4FF;
+    color: #a9cad4;
+}
+
+
+main {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;    
+}
+
+.home{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #007099;
+}
+
+.maria{ 
+text-align: center;
+margin-top: 100px; 
+margin-left: 30px;
+margin-bottom: 30px;
+}
+
+.historia{
+    display: flex;
+    text-align: center;
+    margin-top: 150px;
+    font-weight: bold;
+    font-size: 28px;
+    color: #D1F4FF ;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.event-about{   
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #D1F4FF;
+}
+
+.sobre{
+    flex: 1;
+    color: #007099;
+    text-align: justify;
+    font-size: 24px;
+    margin-top: 8%;
+    margin-bottom: 4%;
+    margin-left: 20px;
+    font-size: 25px;
+    }
+
+    .encontre.png {
+        flex: 1;
+        text-align: center;
+        margin-top: 4%;
+        margin-bottom: 3%;
+    }
